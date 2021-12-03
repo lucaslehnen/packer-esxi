@@ -1,6 +1,6 @@
-pkr_iso_url = "VMware-VMvisor-Installer-7.0U3-18644231.x86_64.iso"
-pkr_iso_checksum ="md5:482fcb20aef71740e88d0c360cd6b277"
-pkr_output_disk = "esxi-boot.qcow2"
+pkr_iso_url = "/tmp/VMware-VMvisor-Installer-7.0U2-17630552.x86_64.iso"
+pkr_iso_checksum ="md5:a085686c3fc8a438a40382118448a846"
+pkr_output_disk = "esxi-boot"
 pkr_cpu = 4
 pkr_mem = 4096
 pkr_ip = "192.168.99.50"
@@ -9,4 +9,4 @@ pkr_netmask = "255.255.255.1"
 pkr_nameserver = "192.168.99.1"
 pkr_net_bridge = "br0"
 pkr_ssh_user = "root"
-pkr_ssh_pass = "Esxi@2021."
+pkr_ssh_pass = "SenhaExemplo1."
